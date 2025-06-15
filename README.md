@@ -4,7 +4,7 @@
 This directory contains some of the beginner projects I did to learn ROS 2. These projects are designed to help new users understand the basics of the Robot Operating System 2 (ROS 2) and its functionalities.
 
 ## Installation Instructions
-To get started with these projects, ensure you have ROS 2 installed on your system. Follow the official [ROS 2 installation guide](https://docs.ros.org/en/foxy/Installation.html) for your operating system.
+To get started with these projects, ensure you have ROS 2 installed on your system. Follow the official [ROS 2 installation guide](https://docs.ros.org/en/jazzy/Installation.html) for your operating system.
 
 ## Usage
 Each project can be built and run using the following commands:
@@ -14,7 +14,7 @@ Each project can be built and run using the following commands:
 cd <project_directory>
 
 # Build the project
-colcon build
+colcon build --packages-select <package name> --symlink-install
 
 # Source the setup file
 source install/setup.bash
